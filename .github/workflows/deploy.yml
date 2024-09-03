@@ -27,7 +27,7 @@ jobs:
       working-directory: terraform # Ensure this matches the location of your Terraform files
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AKIAT7JJVC6EL3H4FP3S}}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.St36/vLK7oxPDTEtN8yQ8lTQvmijjyWXo4cl/hme }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.St36/vLK7oxPDTEtN8yQ8lTQvmijjyWXo4cl/hm }}
 
     - name: Terraform Apply
       run: terraform apply -auto-approve
