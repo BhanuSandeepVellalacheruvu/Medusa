@@ -6,25 +6,25 @@ This repository contains the Infrastructure as Code (IaC) for deploying the Medu
 
 ### Overview
 
-- **Provider**: AWS ![AWS Logo](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+- **Provider**: [AWS](https://aws.amazon.com/) ![AWS Logo](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 - **Resources**:
-  - **VPC**: A Virtual Private Cloud to isolate your network.
-  - **Subnet**: A subnet within the VPC for resource placement.
-  - **Security Group**: Defines inbound and outbound traffic rules.
-  - **IAM Role**: Permissions for ECS tasks.
-  - **ECS Cluster**: Manages the container instances.
-  - **ECS Task Definition**: Specifies container details and requirements.
-  - **ECS Service**: Manages deployment and scaling of the containers.
+  - **VPC**: A Virtual Private Cloud to isolate your network. ![VPC Badge](https://img.shields.io/badge/VPC-005C99?style=flat&logo=aws&logoColor=white)
+  - **Subnet**: A subnet within the VPC for resource placement. ![Subnet Badge](https://img.shields.io/badge/Subnet-005C99?style=flat&logo=aws&logoColor=white)
+  - **Security Group**: Defines inbound and outbound traffic rules. ![Security Group Badge](https://img.shields.io/badge/Security_Group-005C99?style=flat&logo=aws&logoColor=white)
+  - **IAM Role**: Permissions for ECS tasks. ![IAM Role Badge](https://img.shields.io/badge/IAM_Role-005C99?style=flat&logo=aws&logoColor=white)
+  - **ECS Cluster**: Manages the container instances. ![ECS Cluster Badge](https://img.shields.io/badge/ECS_Cluster-005C99?style=flat&logo=aws&logoColor=white)
+  - **ECS Task Definition**: Specifies container details and requirements. ![ECS Task Badge](https://img.shields.io/badge/ECS_Task_Definition-005C99?style=flat&logo=aws&logoColor=white)
+  - **ECS Service**: Manages deployment and scaling of the containers. ![ECS Service Badge](https://img.shields.io/badge/ECS_Service-005C99?style=flat&logo=aws&logoColor=white)
 
 ### Key Components
 
-- **AWS VPC**: Creates a network space for your resources.
-- **AWS Subnet**: Defines a segment within the VPC.
-- **AWS Security Group**: Controls network access.
-- **AWS IAM Role**: Grants permissions to ECS tasks.
-- **AWS ECS Cluster**: Container orchestration.
-- **AWS ECS Task Definition**: Container configuration.
-- **AWS ECS Service**: Manages container instances and scaling.
+- **AWS VPC**: Creates a network space for your resources. ![AWS VPC Badge](https://img.shields.io/badge/AWS_VPC-005C99?style=flat&logo=aws&logoColor=white)
+- **AWS Subnet**: Defines a segment within the VPC. ![AWS Subnet Badge](https://img.shields.io/badge/AWS_Subnet-005C99?style=flat&logo=aws&logoColor=white)
+- **AWS Security Group**: Controls network access. ![AWS Security Group Badge](https://img.shields.io/badge/AWS_Security_Group-005C99?style=flat&logo=aws&logoColor=white)
+- **AWS IAM Role**: Grants permissions to ECS tasks. ![AWS IAM Role Badge](https://img.shields.io/badge/AWS_IAM_Role-005C99?style=flat&logo=aws&logoColor=white)
+- **AWS ECS Cluster**: Container orchestration. ![AWS ECS Cluster Badge](https://img.shields.io/badge/AWS_ECS_Cluster-005C99?style=flat&logo=aws&logoColor=white)
+- **AWS ECS Task Definition**: Container configuration. ![AWS ECS Task Definition Badge](https://img.shields.io/badge/AWS_ECS_Task_Definition-005C99?style=flat&logo=aws&logoColor=white)
+- **AWS ECS Service**: Manages container instances and scaling. ![AWS ECS Service Badge](https://img.shields.io/badge/AWS_ECS_Service-005C99?style=flat&logo=aws&logoColor=white)
 
 ### HCL Configuration
 
@@ -37,11 +37,11 @@ Terraform configurations are written in HashiCorp Configuration Language (HCL), 
 
 The GitHub Actions workflow automates the deployment process. It performs the following steps:
 
-1. **Checkout Code**: Retrieves the code from the repository.
-2. **Set Up Terraform**: Installs Terraform on the runner.
-3. **Terraform Init**: Initializes the Terraform configuration.
-4. **Terraform Plan**: Prepares an execution plan for Terraform.
-5. **Terraform Apply**: Applies the configuration to AWS.
+1. **Checkout Code**: Retrieves the code from the repository. ![Checkout Code Badge](https://img.shields.io/badge/Checkout_Code-2088FF?style=flat&logo=github&logoColor=white)
+2. **Set Up Terraform**: Installs Terraform on the runner. ![Setup Terraform Badge](https://img.shields.io/badge/Setup_Terraform-2088FF?style=flat&logo=github&logoColor=white)
+3. **Terraform Init**: Initializes the Terraform configuration. ![Terraform Init Badge](https://img.shields.io/badge/Terraform_Init-2088FF?style=flat&logo=github&logoColor=white)
+4. **Terraform Plan**: Prepares an execution plan for Terraform. ![Terraform Plan Badge](https://img.shields.io/badge/Terraform_Plan-2088FF?style=flat&logo=github&logoColor=white)
+5. **Terraform Apply**: Applies the configuration to AWS. ![Terraform Apply Badge](https://img.shields.io/badge/Terraform_Apply-2088FF?style=flat&logo=github&logoColor=white)
 
 ### GitHub Actions Configuration
 
