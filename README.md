@@ -51,11 +51,3 @@ The pipeline is defined in `.github/workflows/deploy.yml`.
 ## 📹 Video Explanation
 
 A video explaining the Terraform code, deployment setup, and the CI/CD pipeline can be found [here](https://your-video-link). The video includes a walkthrough of the setup process and a demonstration of the deployment.
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-For any questions or feedback, please reach out to [Your Name](mailto:your-email@example.com).
