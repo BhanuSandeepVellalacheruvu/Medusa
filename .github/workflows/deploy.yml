@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: deploy 
+    environment: deploy  # Make sure this matches the environment you set up
 
     steps:
       - name: Checkout code
@@ -28,9 +28,13 @@ jobs:
       - name: Terraform Plan
         run: terraform plan
         working-directory: ./terraform
-
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       - name: Terraform Apply
-        run: terraform apply 
+        run: terraform apply -auto-approve
         working-directory: ./terraform
-
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
