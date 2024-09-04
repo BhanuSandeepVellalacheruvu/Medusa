@@ -121,4 +121,5 @@ resource "aws_lb_listener" "medusa_listener" {
     type             = "forward"
     target_group_arn = aws_lb_target_group.medusa_tg.arn
   }
+
 }
