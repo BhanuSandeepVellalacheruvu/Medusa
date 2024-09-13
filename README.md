@@ -31,7 +31,7 @@ This repository contains the Infrastructure as Code (IaC) for deploying the Medu
 ![HCL Logo](https://img.shields.io/badge/HCL-5F2B8A?style=flat&logo=hashicorp&logoColor=white)  
 Terraform configurations are written in HashiCorp Configuration Language (HCL), defining the necessary AWS resources and their settings.
 
-## 🚀 GitHub Actions CI/CD Pipeline
+## CI/CD Pipeline
 
 ### Workflow
 
@@ -69,5 +69,6 @@ A video explaining the Terraform code, deployment setup, and the CI/CD pipeline 
 ---
 
 ### Bhanu Sandeep Vellalacheruvu
+
 
 Check out my [Credly profile](https://www.credly.com/users/bhanu-sandeep-vellalacheruvu/edit) for more details on my certifications.
