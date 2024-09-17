@@ -1,6 +1,6 @@
 # Medusa Backend Deployment with Terraform and GitHub Actions
 
-This repository contains the Infrastructure as Code (IaC) for deploying the Medusa open-source headless commerce platform backend using Terraform on AWS ECS/Fargate. It also includes a CI/CD pipeline setup using GitHub Actions.
+This repository contains the Infrastructure as Code (IaC) for deploying the Medusa open-source headless commerce platform backend using Terraform on AWS ECS/Fargate. It also includes a CI/CD pipeline setup using GitHub Actions...
 
 ## 🛠️ Terraform Configuration
 
